@@ -19,8 +19,14 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="font-open">
-    <header class="bg-black text-gega-grey py-6 lg:py-12 uppercase">
+  <body class="font-open dark">
+    <!--dark-mode-->
+    <div class="absolute top-1 left-5 cursor-pointer text-lg">
+      <i class="fa-solid fa-sun text-white" id="sun"></i>
+      <i class="fa-solid fa-moon  text-black hidden " id="moon"></i>
+    </div>
+
+    <header class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
       <div
         class="pl-4 md:pl-4 lg:pl-0 container flex items-center justify-between space-x-8 lg:space-x-16"
       >
@@ -44,7 +50,7 @@
           >
             <a
               href="#"
-              class="text-gega-grey hover:text-gega-melon transition duration-500"
+              class="text-gega-grey  hover:text-gega-melon transition duration-500 "
               >movies</a
             >
             <a
@@ -583,5 +589,10 @@
         </div>
       </div>
     </footer>
+  
+
+    <script src="./js/script.js"></script>
+
+
   </body>
 </html>
