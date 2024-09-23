@@ -89,3 +89,7 @@ Tailwind CSS, kullanıcıların stilleri özelleştirmesine olanak tanır. @appl
 }
 
 ```
+
+### Geliştirilmesi Gereken Özellikler:
+- Proje, kullanıcı etkileşimlerini ve dinamik içerikleri yönetmek için yeterli JavaScript işlevselliğine sahip değil. JavaScript kullanılarak form validasyonu, modal pencereler, dinamik içerik güncellemeleri gibi özellikler eklenebilir.
+- Dark mode geçişinin daha kullanıcı dostu olması için, kullanıcının tercihine göre ayarları kaydetme işlevi eklenebilir. 
